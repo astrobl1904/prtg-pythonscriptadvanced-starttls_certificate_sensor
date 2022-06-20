@@ -1,6 +1,6 @@
 # prtg-pythonscriptadvanced-starttls_certificate_sensor
 
-This repository contains the sources of a PRTG Python Script Advanced sensor to monitor SSL Certificates of a SSL/TLS secured connections which require STARTTLS to initialize a secure channel.
+This repository contains a PRTG Python Script Advanced sensor to monitor SSL Certificates of a SSL/TLS secured connections which require STARTTLS to initialize a secure channel.
 
 ## Sensor Summary
 
