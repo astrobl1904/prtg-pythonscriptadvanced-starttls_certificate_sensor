@@ -35,7 +35,7 @@ All channels but the primary channel use PRTG built-in value lookup definitions.
 
 ### Common Name Check
 
-PRTGs built-in _SSL Certificate_ sensor allows also the validate `SNI Domainname` values. Since this is in essence a check of an user-specified domain name against the _commonName_ and/or _subjectAltName_ attribute of the certificate, this sensor ommits the result values _SNI Domainname matches_ and _SNI Domainname does not match_.
+PRTGs built-in _SSL Certificate_ sensor allows also to validate `SNI Domainname` values. Since this is in essence a check of an user-specified domain name against the _commonName_ and/or _subjectAltName_ attribute of the certificate, this sensor ommits the result values _SNI Domainname matches_ and _SNI Domainname does not match_.
 
 If the device's network address is specified as domain name and is the same as contained in the certificate, the parameter `cert_domainname` can be omitted.
 
