@@ -5,7 +5,7 @@ This repository contains a PRTG Python Script Advanced sensor to monitor SSL Cer
 ## Sensor Summary
 
     Script Language: Python 3.7+
-    Version: 0.1.0
+    Version: 1.0.0
     Author: Andreas Strobl <astroblx@asgraphics.at>
     Verified PRTG Version: 22.2.76.1705
     Dependencies: cryptography >=37.0.0, prtg == 1.0.0
@@ -14,7 +14,7 @@ This repository contains a PRTG Python Script Advanced sensor to monitor SSL Cer
 
 This custom _Python Script Advanced_ sensor will monitor SSL certificates that require a protocol handshake prior to reading certificate data, and exposes the collected data in channels similar to PRTG's built-in _SSL Certificate_ sensor.
 
-As of version v0.1.0 this sensor supports the following application layer protocols:
+As of version v1.0.0 this sensor supports the following application layer protocols:
 
 * `SMTP`: Simple Mail Transfer Protocol, [RFC 5321](https://www.rfc-editor.org/rfc/rfc5321)
 * `LMTP`: Local Mail Transfer Protocol, [RFC 2033](https://datatracker.ietf.org/doc/html/rfc2033)
