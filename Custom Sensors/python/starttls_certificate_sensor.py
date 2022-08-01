@@ -34,8 +34,8 @@ from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 
-from prtg.sensor.result import CustomSensorResult
-from prtg.sensor.units import ValueUnit
+from paesslerag_prtg_sensor_api.sensor.result import CustomSensorResult
+from paesslerag_prtg_sensor_api.sensor.units import ValueUnit
 
 class Protocol(Enum):
     """Application Layer protocols
